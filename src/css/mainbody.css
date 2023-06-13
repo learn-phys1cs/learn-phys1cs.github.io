@@ -1,0 +1,42 @@
+.main-panel {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 0em 4em 0em
+}
+
+.main-panel h1{
+    font-size: 5em;
+}
+.button-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 4em
+}
+
+.button-holder input {
+    padding: .75em 5em .75em 5em;
+}
+
+.info {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(49, 78, 203, 0.9),
+        rgba(0, 0, 255, 0.7)
+      ), url('https://assets.digitalocean.com/labs/images/community_bg.png');
+    /* place holder image */
+    margin: 0px;
+}
+.info-text {
+    width: 50%;
+}
+.left {
+    margin-left: 50%;
+}
+.info-text h1 {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: 4.25em;
+}
