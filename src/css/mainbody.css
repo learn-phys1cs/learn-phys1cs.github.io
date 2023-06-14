@@ -1,13 +1,28 @@
 .main-panel {
     /* text-align: center; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin: 0em 0em 4em 0em
+    justify-content: center;
+    /* gap: 15%; */
+    flex: 1;
+    color: #aeb2b1;
+    background-color: #2b2b2d;
+    padding: 1em;
 }
 
-.main-panel h1{
-    font-size: 5em;
+.main-panel-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+    width: 50%;
+}
+.main-panel-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .button-holder {
     display: flex;
@@ -15,11 +30,10 @@
     gap: 4em
 }
 
-.button-holder input {
-    padding: .75em 5em .75em 5em;
-}
-
 .info {
+    display: flex;
+    align-items: center;
+    color: #aeb2b1;
     background-image: linear-gradient(
         to bottom,
         rgba(49, 78, 203, 0.9),
@@ -27,6 +41,8 @@
       ), url('https://assets.digitalocean.com/labs/images/community_bg.png');
     /* place holder image */
     margin: 0px;
+    height: 30rem;
+    padding: 1em;
 }
 .info-text {
     width: 50%;
@@ -39,4 +55,25 @@
     margin: 0%;
     padding: 0%;
     font-size: 4.25em;
+}
+
+.input{
+    width: 10em;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    border-width: 2px;
+    outline: none;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #2b2b2d;
+    border-color: #aeb2b1;
+    color:#aeb2b1;
+    transition: 0.3s;
+}
+
+.input:hover{
+    border-color: #53f9fd;
 }

@@ -11,6 +11,7 @@
     /* background: radial-gradient(circle, rgba(1,100,139,1) 17%, rgba(1,100,139,1) 46%, rgba(0,212,255,1) 100%); */
     /* border-radius: 4%; */
     /* padding: 1em; */
+    border-bottom: solid 2px #aeb2b1;
 }
 .logo {
     align-self: start;
